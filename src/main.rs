@@ -1,37 +1,21 @@
+mod pyramid;
+mod console;
+
+use std::borrow::Borrow;
+use console_gui::test;
+
+use console_gui::console_view::{View, Color};
+use console_gui::console_view::point::Point;
+
 fn main() {
-    println!("Hello, world!");
-    let pyramid = Pyramid {
-        height: 4
-    };
-    pyramid.draw();
+    let mut view = View::new(20, 20);
+    view.draw_line(Point(0,0), Point(5,5), Color(128,128,128,128));
+    view.draw_view();
 }
 
-struct Pyramid {
-    height: i32,
-
+enum Vehicles {
+    CAR(u8, u8),
+    TRUCK(u8, u8),
+    MOTORCYCLE(u8, u8)
 }
 
-impl Pyramid {
-    fn draw(&self) {
-        let width = self.height * 2 - 1;
-
-        for row in 0..self.height {
-            let filled = row * 2 + 1;
-            let empty = (width - filled) / 2;
-
-            for col in 0..empty {
-                print!("_");
-            }
-
-            for col in 0..filled {
-                print!("#");
-            }
-
-            for col in 0..empty {
-                print!("_");
-            }
-
-            println!();
-        }
-    }
-}

@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
+name = "console_gui"
+version = "0.1.0"
+
+[[package]]
 name = "rust_at1"
 version = "0.1.0"
+dependencies = [
+ "console_gui",
+]

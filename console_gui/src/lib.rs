@@ -1,4 +1,5 @@
-pub mod console_utils;
+mod console_utils;
+pub mod console_view;
 
 // pub use crate::console_utils::console_utils;
 pub mod console_gui {
