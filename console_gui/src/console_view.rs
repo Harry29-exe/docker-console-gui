@@ -24,6 +24,16 @@ pub struct Px {
     pub sign: char
 }
 
+impl Px {
+    pub fn new(bg: Color, color: Color, sign: char) -> Self {
+        Px {
+            bg_color: bg,
+            color: color,
+            sign: sign
+        }
+    }
+}
+
 impl Clone for Px {
     fn clone(&self) -> Self {
         Px {
@@ -108,7 +118,13 @@ impl View {
 
                 last_px = &current_px;
             }
-            println!("{}", string_po_print);
+            print!("{}\x1b[38;0m\x1b[48;0m\n", string_po_print);
         }
+        // print!("\x1b[38;2;0m");
+        // print!("\x1b[48;2;0m");
+
+        print!("\x1b[0m");
+        print!("\x1b[0m");
+        print!("\n");
     }
 }

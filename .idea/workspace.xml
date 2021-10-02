@@ -7,15 +7,11 @@
     <cargoProject FILE="$PROJECT_DIR$/console_gui/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8412253e-4131-4e77-898e-5b4a2adca273" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/console_gui/src/console_view/point.rs" afterDir="false" />
+    <list default="true" id="8412253e-4131-4e77-898e-5b4a2adca273" name="Default Changelist" comment="successfully drawn black rect into console">
+      <change afterPath="$PROJECT_DIR$/console_gui/src/console_gui.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console_gui/src/console_view.rs" beforeDir="false" afterPath="$PROJECT_DIR$/console_gui/src/console_view.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console_gui/src/console_view/draw_primitive.rs" beforeDir="false" afterPath="$PROJECT_DIR$/console_gui/src/console_view/draw_primitive.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console_gui/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/console_gui/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/console.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/console.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +88,14 @@
       <option name="presentableId" value="Default" />
       <updated>1631537013514</updated>
     </task>
+    <task id="LOCAL-00001" summary="successfully drawn black rect into console">
+      <created>1632953878108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632953878108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,5 +109,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="successfully drawn black rect into console" />
+    <option name="LAST_COMMIT_MESSAGE" value="successfully drawn black rect into console" />
   </component>
 </project>
