@@ -6,6 +6,7 @@ use console_gui::console_view::point::Point;
 use std::borrow::BorrowMut;
 
 fn main() {
+    console_gui::test();
     let mut view = View::new(10, 20);
     view.draw_bg_line(Point(0, 0), Point(6, 6), Color(128, 128, 128, 128));
     view.draw_view();
